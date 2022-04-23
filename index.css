@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Work Sans', sans-serif;
+background: linear-gradient(to top, #ff0000, #1d1615);
+}
+.title{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 55px;
+       color: transparent;
+       background: linear-gradient(to top ,white,black);
+       -webkit-background-clip:text;
+}.upload_image{
+    text-align: center;
+    margin-top: 100px;
+}.image{
+    width: 600px;
+    height: 320px;
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    color: rgb(255, 253, 253);
+    height: 60px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    margin: auto;
+    top: 550px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_send{
+    background:black;
+    color: white;
+    font-weight: bolder;
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top: 82%;
+    left: 58%;
+    outline: 0;
+    border: 0;
+}
+.message_succes p{
+    background: green;
+    padding: 10px;
+    margin-left: 30px;
+
+}
+.message_warning p{
+    background: rgb(255, 3, 3);
+    padding: 10px;
+    margin-left: 30px;
+}
+#table-content{
+    width: 100%;
+   position: absolute;
+   top: 100%;
+}
+#table-content td{
+    padding: 0.75rem;
+    max-width:25% ;
+}
+#table-content thead{
+    background: rgb(255, 55, 55);
+    color: white;
+    font-weight: bold;
+}
+#table-content tbody{
+    color: white;
+    background: #4c4c4c;
+}
+.remove{
+    padding: 5px;
+    width: 70px;
+    background: red;
+    outline: 0;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+}
+.sub-title{
+    position: absolute;
+    top: 93%;
+}
